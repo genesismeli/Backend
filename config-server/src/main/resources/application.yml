@@ -8,7 +8,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/genesismeli/Backend-2
+          uri: https://github.com/genesismeli/Backend
           default-label: main
           force-pull: true
           search-paths: service-configuration
