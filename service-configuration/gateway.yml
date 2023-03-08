@@ -12,14 +12,14 @@ spring:
 #      default-filters:
 #        - name: FilterCustom
       routes:
-        - id: msjuego
-          uri: lb://juegos-service
+        - id: msmovie
+          uri: lb://movie-service
           predicates:
-            - Path=/juegos/**
-        - id: msbiblioteca
-          uri: lb://biblioteca-service
+            - Path=/movies/**
+        - id: mscatalog
+          uri: lb://catalog-service
           predicates:
-            - Path=/biblioteca/**
+            - Path=/catalog/**
 
 info:
   app:
