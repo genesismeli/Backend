@@ -2,7 +2,6 @@ package com.dh.movieservice.api.controller;
 
 import com.dh.movieservice.api.service.MovieService;
 import com.dh.movieservice.domain.model.Movie;
-import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

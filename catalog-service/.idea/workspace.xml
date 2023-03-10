@@ -6,11 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="149452e3-d117-49c1-87e2-3edf3733ae5e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../movie-service/src/main/java/com/dh/movieservice/api/controller/MovieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../movie-service/src/main/java/com/dh/movieservice/api/controller/MovieController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-service/src/main/java/com/dh/movieservice/domain/data/DataLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../movie-service/src/main/java/com/dh/movieservice/domain/data/DataLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../movie-service/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../movie-service/target/classes/com/dh/movieservice/api/controller/MovieController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../movie-service/target/classes/com/dh/movieservice/api/controller/MovieController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../movie-service/target/classes/com/dh/movieservice/domain/data/DataLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/../movie-service/target/classes/com/dh/movieservice/domain/data/DataLoader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../service-configuration/catalog-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../service-configuration/catalog-service.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../service-configuration/movie-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../service-configuration/movie-service.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
