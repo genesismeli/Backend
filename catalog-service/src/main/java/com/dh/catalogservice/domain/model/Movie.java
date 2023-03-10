@@ -1,21 +1,19 @@
 package com.dh.catalogservice.domain.model;
 
 import java.io.Serializable;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+
+import lombok.*;
 
 import java.io.Serializable;
-
+@Data
 @Getter
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
 
-public class Movie implements Serializable{
+public class Movie {
 
-    private static final long serialVersionUID = 1L;
+
     private Long id;
     private String name;
     private String genre;

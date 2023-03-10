@@ -12,10 +12,6 @@ spring:
 #      default-filters:
 #        - name: FilterCustom
       routes:
-        - id: msmovie
-          uri: lb://movie-service
-          predicates:
-            - Path=/movies/**
         - id: mscatalog
           uri: lb://catalog-service
           predicates:

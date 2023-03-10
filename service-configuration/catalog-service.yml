@@ -5,7 +5,7 @@ idRandom: ${random.value}
 
 spring:
   application:
-    name: ms-movie
+    name: mscatalog
 eureka:
   instance:
     hostname: localhost
