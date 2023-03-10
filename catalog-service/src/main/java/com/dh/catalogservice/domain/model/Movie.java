@@ -1,4 +1,24 @@
 package com.dh.catalogservice.domain.model;
 
-public record Movie(Long id, String name, String genre, String urlStream) {
+import java.io.Serializable;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+import java.io.Serializable;
+
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
+
+public class Movie implements Serializable{
+
+    private static final long serialVersionUID = 1L;
+    private Long id;
+    private String name;
+    private String genre;
+    private String urlStream;
+
 }
