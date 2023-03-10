@@ -20,7 +20,7 @@ public class DataLoader implements ApplicationRunner {
         repository.save(new Movie(1L, "filme", "terror", "what"));
         repository.save(new Movie(2L, "borboleta", "terror", "what"));
         repository.save(new Movie(3L, "adedonha", "terror", "what"));
-        repository.save(new Movie(4L, "miedo", "terror", "what"));
+        repository.save(new Movie(4L, "pajero", "terror", "what"));
         repository.save(new Movie(5L, "dakar", "acao", "what"));
         repository.save(new Movie(6L, "shadow", "acao", "what"));
         repository.save(new Movie(7L, "boné", "romance", "what"));
