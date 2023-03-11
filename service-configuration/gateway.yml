@@ -9,8 +9,7 @@ spring:
       discovery:
         locator:
           enabled: true
-#      default-filters:
-#        - name: FilterCustom
+
       routes:
         - id: catalog-service
           uri: lb://catalog-service
